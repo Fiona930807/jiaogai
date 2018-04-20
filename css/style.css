@@ -1,0 +1,135 @@
+body{
+    padding-top: 160px;
+    padding-bottom: 20px;
+}
+.head-bg{
+    background: url("../img/bg.png") center center;
+    height: 90px;
+}
+.head-logo{
+    vertical-align: middle;
+    text-align: center;
+}
+.head-logo img{
+    margin-top: 15px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+/*.bar-width{
+    width: 1200px;
+    vertical-align: middle;
+    text-align: center;
+}*/
+.banner-style{
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.banner-style img{
+    height:210px;
+    width:1100px;
+    text-align: center;
+}
+.content{
+    width:1100px;
+    margin:0 auto;
+    padding:20px 0 100px 0;
+}
+.content-title{
+    text-align: center;
+}
+.content-title h3{
+    font-family: 楷体;
+    padding-bottom: 12px;
+}
+.online-test-box ul li{
+    width: 34%;
+    float:left;
+    margin: 0 4%;
+    padding: 20px 10px;
+    box-shadow: 0 0 3px 2px lightgray;
+}
+.online-test-box ul li:hover{
+    box-shadow: 0 0 3px 2px lightblue;
+}
+.online-test-box ul li:first-child{
+    margin-left:10%;
+}
+
+.online-test-box ul li a img{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.online-test-box ul li a span{
+    display: block;
+    color: #000000;
+    height: 40px;
+    margin-top: 10px;
+    font-size:13px;
+    text-align:center;
+}
+
+ul li{
+    list-style-type:none;
+}
+.footer-content{
+    background: url("../img/bg.png") no-repeat center center;
+    height: 70px;
+    width:1100px;
+    margin:0px auto;
+    padding:20px 0 100px 0;
+    color:white;
+}
+
+.footer-left{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.footer-right{
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* 响应式布局 */
+
+@media (max-width: 768px) {
+
+    .summary {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    .carousel {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .carousel .item {
+        height: 300px;
+    }
+
+    .carousel img {
+        min-height: 300px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .feature-heading {
+        font-size: 34px;
+    }
+
+    .feature-heading .text-muted {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature-heading {
+        margin-top: 120px;
+    }
+}
